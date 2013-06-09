@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IceCream Story</title>
+    <script src="utils.js"></script>
+    <script src="classes.js"></script>
+    <script src="main.js"></script>
+
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<div class="page">
+<H1>Ice Cream Story</H1>
+    </br>
+
+        <div id="content" class="container">
+
+            <H3>Children</H3>
+            <ul id="story">
+
+            </ul>
+
+            <div class="controls">
+                <input type="button" value="Feed the Beast" onclick="showDialog()">
+            </div>
+        </div>
+
+        </br>
+
+        <div id="dialog" class="container">
+            <H3>Select <label id="dialog-screen-title">%name%</label></H3>
+
+            <select multiple>
+              <option>First Item</option>
+              <option>Second Item</option>
+            </select>
+
+            <div id="dialog-buttons" class="controls">
+              <input type="button" value="Previous">
+              <input type="button" value="    Next    ">
+            </div>
+        </div>
+
+</div>
+</body>
+</html>
