@@ -58,6 +58,14 @@ H3{
     text-align: right;
 }
 
+#dialog-screen-content{
+    padding: 1em;
+}
+
+#dialog-screen-content > select{
+    width: 50%;
+}
+
 input{
     background-color: #fee599;
     border: 1px solid #999;

@@ -18,7 +18,12 @@ function Children(name, action, item) {
     this.currentAction = action;
     this.actionItem = item;
 }
+
 Children.prototype.toString = function(){
+    return this.name;
+}
+
+Children.prototype.print = function(){
     return this.name + ' ' + this.currentAction + ' ' + this.actionItem;
 }
 
